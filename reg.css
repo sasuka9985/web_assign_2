@@ -33,5 +33,6 @@ body{
     background-color: #32906e;
     border: white;
     width: 100%;
+    margin: 3px;
     padding: 10px;
 }

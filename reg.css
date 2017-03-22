@@ -1,0 +1,37 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#ffe2fe,#e0ffdd);
+    font-family: Microsoft JhengHei;
+}
+
+.main{
+    position:absolute;
+    top:21%;
+    left: 42.5%;
+}
+
+#name, #phone, #email, #birthday,  #college{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border: white;
+    margin: 3px;
+    padding: 10px;
+}
+
+#name:valid, #college:valid, #phone:valid, #email:valid, #birthday:valid{
+    background-color: #39b387;
+    opacity: 0.5;
+}
+
+#submit{
+    background-color: #32906e;
+    border: white;
+    width: 100%;
+    padding: 10px;
+}

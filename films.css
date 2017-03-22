@@ -1,0 +1,102 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 新細明體, serif;
+}
+
+#main{
+    display: flex;
+}
+
+#paragraph{
+    margin: 0 25px;
+    -webkit-flex: 1.5;
+    flex: 1.5;
+}
+
+aside{
+    margin: 1px 25px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+aside>section {
+  float: left;
+  width: 200px;
+  height: 350px;
+  margin: 25px ;
+}
+
+aside section a img:hover{
+    opacity: 0.5;
+}
+
+aside section>img{
+    float: left;
+    margin: 0.5em;
+}
+
+article>p {
+    font-size: 16px;
+    padding:10px 0;
+    line-height: 25px;
+    width: 500px;
+}
+
+aside section p strong{
+    font-size: 2.5em;
+    color: #5487a3;
+}
+
+a{
+    color: #aac47d;
+}
+
+a:visited{
+    color: #3737f5;
+}
+
+a:hover{
+    color: #f57e37;
+}
+
+#note{
+    display: flex;
+}
+
+#note section{
+    margin: 0 25px;
+    flex: 1;
+}
+
+.fa-arrow-circle-o-up{
+  float: right;
+}
+
+
+
+footer address{
+    display: inline-block;
+}
+
+footer ul{
+    display: inline-block;
+    width: 600px;
+}
+
+footer ul li{
+    float: left;
+    list-style: none;
+}
+
+#nccu{
+    clear: left;
+}
+
+.fa-facebook-square{
+    margin-left: 5px;
+}

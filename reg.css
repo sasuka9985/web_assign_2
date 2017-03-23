@@ -5,17 +5,20 @@
 }
 
 body{
-    background: linear-gradient(to right,#ffe2fe,#e0ffdd);
+    background: linear-gradient(to right,#b8f1ed,#f1b8e4);
     font-family: Microsoft JhengHei;
 }
 
 .main{
     position:absolute;
     top:21%;
-    left: 42.5%;
+    left: 37%;
+    width:300px;
+    vertical-align: middle;
 }
 
 #name, #phone, #email, #birthday,  #college{
+    background-color: #fdeff2;
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 100%;
@@ -25,12 +28,12 @@ body{
 }
 
 #name:valid, #college:valid, #phone:valid, #email:valid, #birthday:valid{
-    background-color: #39b387;
+    background-color: #89c3eb;
     opacity: 0.5;
 }
 
 #submit{
-    background-color: #32906e;
+    background-color: #59b9c6;
     border: white;
     width: 100%;
     margin: 3px;

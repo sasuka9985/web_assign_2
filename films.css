@@ -6,39 +6,38 @@
 
 body{
     font-family: 新細明體, serif;
-}
-
-#main{
-    display: flex;
+    margin: 20px, auto;
+    padding:40px;
+    text-align: left;
 }
 
 #paragraph{
-    margin: 0 25px;
-    -webkit-flex: 1.5;
-    flex: 1.5;
+    float:left;
+    width:50%;
+    margin: 20px,auto;
+    padding:20px;
+    line-height: 35px;
 }
 
 aside{
-    margin: 1px 25px;
-    -webkit-flex: 1;
-    flex: 1;
+    float:left;
+    width:50%;
+    margin-left: 50%;
+    margin:20px auto;
 }
 
-aside>section {
-  float: left;
-  width: 200px;
-  height: 350px;
-  margin: 25px ;
+section{
+    float:left;
+    width:45%;
+    margin:10px;
+    height:470px;
+
 }
 
 aside section a img:hover{
     opacity: 0.5;
 }
 
-aside section>img{
-    float: left;
-    margin: 0.5em;
-}
 
 article>p {
     font-size: 16px;
@@ -65,37 +64,34 @@ a:hover{
 }
 
 #note{
-    display: flex;
+    float:left;
+    width:100%;
+    
 }
 
-#note section{
-    margin: 0 25px;
-    flex: 1;
-}
 
 .fa-arrow-circle-o-up{
   float: right;
+  
 }
-
 
 
 footer address{
-    display: inline-block;
+    float:left;
+    width:30%;
+
 }
 
-footer ul{
-    display: inline-block;
-    width: 600px;
+footer #left{
+    margin-left: 50%;
+    width:50%;
+    line-height: 1.5em;
 }
 
-footer ul li{
-    float: left;
-    list-style: none;
+#school{
+    float:left;
 }
 
-#nccu{
-    clear: left;
-}
 
 .fa-facebook-square{
     margin-left: 5px;

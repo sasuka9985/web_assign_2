@@ -18,7 +18,7 @@ body{
 }
 
 #name, #phone, #email, #birthday,  #college{
-    background-color: #fdeff2;
+    background-color: #eaf4fc;
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 100%;
